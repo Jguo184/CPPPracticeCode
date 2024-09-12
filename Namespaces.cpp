@@ -1,4 +1,5 @@
 #include <iostream>
+//namespaces gives variables another layer of classification, allowing for duplication of variables
 
 namespace first{
     int x = 1;
@@ -25,3 +26,5 @@ int main(void){
     //:: means accessing a namespace, called a scope resolution operator.
     return 0;
 }
+
+
